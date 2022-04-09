@@ -1,0 +1,23 @@
+.nav-link:hover{
+   color: rgb(255, 158, 1)!important;
+   transition: 0.5s;
+}
+
+.navbar{
+  background: rgb(74, 199, 141); 
+  width: 100%;
+}
+
+a.navbar-brand {
+  font-size: 100%;
+  color: rgb(255, 255, 255)!important;
+  border: 2px solid white;
+  padding: 11px;
+}
+
+img.card-img-top{
+  width: 30%;
+  border: 10px solid rgb(74, 199, 141);
+  border-radius: 1000px;
+
+}

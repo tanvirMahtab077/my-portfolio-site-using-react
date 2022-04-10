@@ -21,3 +21,21 @@ img.card-img-top{
   border-radius: 1000px;
 
 }
+
+.card-title{
+  width:25%;
+  border:3px solid rgb(74, 199, 141)
+}
+
+@media only screen and (max-width: 991px){ 
+  .card-title{
+    width:50%;
+  }
+}
+
+@media only screen and (max-width: 460px){ 
+  .card-title{
+    font-size: 100%;
+    width:80%;
+  }
+}

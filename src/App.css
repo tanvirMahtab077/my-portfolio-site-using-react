@@ -27,6 +27,16 @@ img.card-img-top{
   border:3px solid rgb(74, 199, 141)
 }
 
+.main-header{
+  background: rgb(74, 199, 141)!important; 
+  color: white;
+}
+
+#cardBody{
+  background: rgb(230, 254, 243)!important; 
+  /* border: 2px solid rgb(74, 199, 141); */
+}
+
 @media only screen and (max-width: 991px){ 
   .card-title{
     width:50%;

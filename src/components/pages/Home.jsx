@@ -5,7 +5,7 @@ class Home extends Component {
   render() {
     return (
       <div className="container mt-5">
-        <div className="card text-center">
+        <div className="text-center home">
           <img
             className="card-img-top mx-auto mt-5"
             src={headerImage}
@@ -23,9 +23,9 @@ class Home extends Component {
             <a
               href="/"
               className="btn btn-xs mx-auto"
-              style={{ backgroundColor: "rgb(74, 199, 141)", color: "white" }}
+              style={{ background:"#00c9b7", color: "white",padding:"10px",borderRadius:"100px" }}
             >
-              Download Resume
+              <span>Resume Resume</span>
             </a>
           </div>
         </div>

@@ -1,10 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Dongle:wght@300&family=Montserrat:ital,wght@1,800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dongle&display=swap');
+
+#root{
+  height: 1000px;
+  color: white!important;
+  background-image: linear-gradient(to right top, #051937, #004d7a, #008793, #00bf72, #a8eb12);
+  
+}
+h1,p,span{
+  font-family: 'Montserrat', sans-serif;
+
+}
+
+
+
 .nav-link:hover{
-   color: rgb(255, 158, 1)!important;
-   transition: 0.5s;
+  background-color: rgba(255, 245, 255, 0.2);
+  border-bottom-color: #abcdef;
 }
 
 .navbar{
-  background: rgb(74, 199, 141); 
   width: 100%;
 }
 
@@ -17,19 +32,20 @@ a.navbar-brand {
 
 img.card-img-top{
   width: 30%;
-  border: 10px solid rgb(74, 199, 141);
   border-radius: 1000px;
 
 }
 
 .card-title{
+  color: white;
   width:25%;
-  border:3px solid rgb(74, 199, 141)
+  border:3px solid white;
+  padding: 10px
 }
 
 .main-header{
-  background: rgb(74, 199, 141)!important; 
-  color: white;
+  background: #A8EB12!important; 
+  color: black;
 }
 
 #cardBody{
@@ -37,16 +53,14 @@ img.card-img-top{
   /* border: 2px solid rgb(74, 199, 141); */
 }
 
-.simple-footer{
-  margin-bottom: 100px;
+.about-me,.work-experience,.home{
+  background: none!important;
+  border-radius: 20px!important;
 }
 
 @media only screen and (max-width: 991px){ 
   .card-title{
     width:50%;
-  }
-  .simple-footer{
-    margin-bottom: 100px;
   }
   
 }
@@ -55,11 +69,5 @@ img.card-img-top{
   .card-title{
     font-size: 100%;
     width:80%;
-  }
-}
-
-@media only screen and (max-width: 496px){ 
-  .simple-footer{
-    margin-bottom: 100px;
   }
 }

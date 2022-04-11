@@ -4,7 +4,7 @@ import { workExperiences } from "../../json/workingExperiences";
 class About extends Component {
   render() {
     return (
-      <div className="container mt-5">
+      <div className="container mt-5 mb-5">
         <div className="card text-center">
           <h5 className="card-header main-header">About Me</h5>
           <div className="card-body">

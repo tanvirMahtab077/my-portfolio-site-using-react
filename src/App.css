@@ -37,15 +37,29 @@ img.card-img-top{
   /* border: 2px solid rgb(74, 199, 141); */
 }
 
+.simple-footer{
+  margin-bottom: 100px;
+}
+
 @media only screen and (max-width: 991px){ 
   .card-title{
     width:50%;
   }
+  .simple-footer{
+    margin-bottom: 100px;
+  }
+  
 }
 
 @media only screen and (max-width: 460px){ 
   .card-title{
     font-size: 100%;
     width:80%;
+  }
+}
+
+@media only screen and (max-width: 496px){ 
+  .simple-footer{
+    margin-bottom: 100px;
   }
 }

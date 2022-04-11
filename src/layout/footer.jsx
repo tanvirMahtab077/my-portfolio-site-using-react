@@ -3,7 +3,7 @@ import React, { Component } from "react";
 class Footer extends Component {
   render() {
     return (
-      <div className="mt-5">
+      <div className="simple-footer">
         <footer
           className="text-center text-white fixed-bottom"
           style={{ backgroundColor: "rgb(74, 199, 141)" }}

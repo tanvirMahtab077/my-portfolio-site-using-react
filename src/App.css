@@ -1,22 +1,30 @@
 @import url('https://fonts.googleapis.com/css2?family=Dongle:wght@300&family=Montserrat:ital,wght@1,800&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Dongle&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dongle:wght@300&family=Poppins:wght@300&display=swap');
 
 #root{
   height: 1000px;
   color: white!important;
   background-image: linear-gradient(to right top, #051937, #004d7a, #008793, #00bf72, #a8eb12);
+  font-family: 'Poppins', sans-serif;
   
 }
-h1,p,span{
-  font-family: 'Montserrat', sans-serif;
-
+#my-name{
+  background-image: linear-gradient(-260deg, #50cc7f 40%, #f5d100 200%);
+  width: 30%;
+  font-size: 2rem;
+  border-radius: 30px;
 }
 
-
+#about-me-text{
+  width: 100%;
+  font-size: 100%;
+}
 
 .nav-link:hover{
+  border: 2px solid white;
   background-color: rgba(255, 245, 255, 0.2);
-  border-bottom-color: #abcdef;
+  border-radius: 100px;
 }
 
 .navbar{
@@ -39,19 +47,21 @@ img.card-img-top{
 .card-title{
   color: white;
   width:25%;
-  border:3px solid white;
+  border-bottom:3px solid white;
   padding: 10px
 }
 
 .main-header{
-  background: #A8EB12!important; 
-  color: black;
+  background: #00c9b7!important; 
+  color: white;
 }
 
 #cardBody{
-  background: rgb(230, 254, 243)!important; 
+  background-image: linear-gradient(to top, #37ecba 0%, #72afd3 100%);
+
   /* border: 2px solid rgb(74, 199, 141); */
 }
+
 
 .about-me,.work-experience,.home{
   background: none!important;
@@ -62,6 +72,27 @@ img.card-img-top{
   .card-title{
     width:50%;
   }
+
+  .nav-link{
+    text-align: center;
+  }
+
+  #navbarSupportedContent{
+    margin-top: 10px;
+    background: black;
+    border-radius: 15px;
+    opacity: .4;
+  }
+  #unorder-list{
+    padding: 20px;
+  }
+  #my-name{
+    background-image: linear-gradient(-260deg, #50cc7f 40%, #f5d100 200%);
+    width: 40%;
+    font-size: 1.6rem;
+    border-radius: 30px;
+  }
+  
   
 }
 
@@ -69,5 +100,23 @@ img.card-img-top{
   .card-title{
     font-size: 100%;
     width:80%;
+  }
+  #my-name{
+    background-image: linear-gradient(-260deg, #50cc7f 40%, #f5d100 200%);
+    width: 60%!important;
+    font-size: 1.2rem!important;
+    border-radius: 30px;
+  }
+  #about-me-text{
+    font-size: 80%;
+  }
+}
+
+@media only screen and (max-width: 768px){ 
+  #my-name{
+    background-image: linear-gradient(-260deg, #50cc7f 40%, #f5d100 200%);
+    width: 50%;
+    font-size: 1.5rem;
+    border-radius: 30px;
   }
 }

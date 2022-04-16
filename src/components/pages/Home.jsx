@@ -4,15 +4,15 @@ import headerImage from "../../images/shovon.jpeg";
 class Home extends Component {
   render() {
     return (
-      <div className="container mt-5">
+      <div className="container mt-2">
         <div className="text-center home">
           <img
             className="card-img-top mx-auto mt-5"
             src={headerImage}
             alt="Card image cap"
           />
-          <div className="mt-4">
-            <h1>Tanvir Mahtab</h1>
+          <div>
+            <h1 id="my-name" className="mt-3 mx-auto">Tanvir Mahtab</h1>
           </div>
           <div className="card-body">
             <h5 className="card-title mx-auto">Software Engineer</h5>
